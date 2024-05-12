@@ -12,7 +12,7 @@ RUN apt-get update && \
   apt-get upgrade -y && \
   rm -rf /var/lib/apt/lists/*
 
-RUN npm install && start
+RUN npm install
 
 
 CMD ["npm", "start"]
